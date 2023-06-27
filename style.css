@@ -1,0 +1,272 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+
+  .landing {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('img/landing-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding-top: 50px;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .navbar {
+    /* background-color: transparent; */
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+  }
+
+  .navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+  }
+
+  .navbar-inverse .navbar-nav > li > a:hover,
+  .navbar-inverse .navbar-nav > li > a:focus {
+    background-color: transparent;
+    color: #d5d5d5;
+  }
+
+  .navbar-inverse .navbar-brand {
+    color: #fff;
+  }
+
+  .navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #fff;
+  }
+
+
+  /* --------Landing Section---------- */
+
+
+  .landing-content {
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+  }
+
+  .landing h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+
+  .landing p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+
+  .landing a {
+    background-color: transparent;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 4px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+
+  .landing-button {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 4px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    border: none;
+  }
+  .landing-button:hover {
+    background-color: #a5a5a5;
+    color: #232323;
+    padding: 15px 30px;
+    border-radius: 4px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    border: none;
+  }
+
+  .landing a:hover {
+    background-color: #d2d2d2;
+  }
+
+  /* --------About Section---------- */
+
+  #about {
+    background-color: #fff;
+    padding: 40px 0;
+  }
+
+  #about h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 2em;
+    color: #333;
+  }
+
+  #about p {
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+  }
+
+  .skills {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .skills h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  .skills ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .skills li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+  }
+
+  .about-img {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .about-img img {
+    width: 20em;
+    height: 20em;
+    border-radius: 50%;
+  }
+
+/* --------Projects Section---------- */
+
+#projects {
+  background-color: #f5f5f5;
+  padding: 40px 0;
+}
+
+#projects h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.thumbnail {
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.thumbnail:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.thumbnail img {
+  width: 100%;
+  height: auto;
+}
+
+.caption {
+  padding: 10em;
+  margin: auto;
+  text-align: center;
+}
+
+.caption h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.caption p {
+  font-size: 16px;
+  margin-bottom: 2em;
+  color: #666;
+}
+
+.caption button {
+  color: #e6e6e6;
+  text-decoration: none;
+  border: none;
+  width: auto;
+  margin-bottom: 2em;
+}
+
+
+/* --------Contact Section---------- */
+
+  #contact {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+  }
+
+  #contact h2 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+
+  .form-control {
+    border-radius: 0;
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-size: 16px;
+    box-shadow: none;
+  }
+
+  .form-control:focus {
+    border-color: #aaa;
+    box-shadow: none;
+  }
+
+  textarea.form-control {
+    resize: vertical;
+  }
+
+
+  /* --------Footer ---------- */
+
+  footer {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
+
+  .social-icons a {
+    color: #fff;
+    font-size: 24px;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+  }
+
+  .social-icons a:hover {
+    color: #a3c8ff;
+  }
